@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIPTION POUR UNE VISITE GUIDÉE</title>
+    <link rel="stylesheet" href="Projet_HTML_CSS.css">
+</head>
+<body>
+    <a href="Index.html">RETOUR A LA PAGE D'ACCUEIL</a>
+    <form action="#">
+<div>
+    <h2 id="inscription">Inscription pour une visite guidée</h2>
+</div>
+<div>
+    <label for="Nom">Nom:*</label>
+    <input type="text" required>
+</div>
+<div>
+    <label for="Prénom">Prenom*:</label>
+    <input type="text" required>
+</div>
+<div>
+    <label for="Date de visite souhaitée">Date de visite souhaitée*</label>
+    <input type="date" placeholder="jj/mm/aaaa" required>
+</div>
+<div>
+    <label for="Pays de provenance "> Pays de provenance*:</label>
+    <input type="text" required>
+</div>
+<div>
+    <label for="Sexe">Sexe*:</label>
+    <input type="radio" value="M" name="sexe" class="radio"><span style="color: blueviolet; font-weight: 400;">Masculin</span> 
+    <input type="radio" value="F" name="sexe" class="radio"><span style="color: blueviolet; font-weight: 400;">Feminin</span> 
+</div>
+<div>
+    <label for="Autres emplacements à visiter "> Autres sites*:</label>
+    <select required>
+        <option value="1">Le palais des Congrés</option>
+        <option value="2">Le musée national</option>
+        <option value="3">La plus grande mairie de Lomé</option>
+        <option value="4">bâtiment administratif CASEF</option>
+        <option value="5">Le plus grand Hôtel de LOMÉ "Hôtel du 2Février</option>
+    </select>
+</div>
+<div>
+    <label for="Domaine d'activité">Domaine d'activité:</label>
+    <textarea name="" cols="10" rows="8" placeholder="Décrivez brièvement votre domaine d'activité et précisez si vous souhaitez une visite en groupe ou en équipe restreinte"></textarea>
+</div>
+<div>
+    <label for="Contact">Tél. portable</label>
+    <input type="tel">
+</div>
+<div>
+    <label for="Email">Email*:</label>
+    <input type="email" required>
+</div>
+<div>
+    <label for="Email confirmation"> Confirmez l'Email*:</label>
+    <input type="email" placeholder="Retaper votre email" required>
+</div>
+<div>
+<div>
+    <label for="Mode de paiement">Mode de paiement*:</label>
+    <input type="radio" value="L" name="paiement" class="radio"> <span style="color: blueviolet; font-weight: 400;"> En ligne</span>  
+    <input type="radio" value="V" name="paiement" class="radio"><span style="color: blueviolet; font-weight: 400;"> Par virement</span>
+</div>
+<div>
+    <label for="champ obligatoire"><span style="color: red;">*champ obligatoire</span>
+    </label>
+<div>
+     <input type="reset" class="horizontal" value="Rétablir">
+    <input type="submit" class="horizontal" value="Envoyer"> 
+</div>
+
+</form>
+
+
+</body>
+</html>

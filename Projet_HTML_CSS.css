@@ -1,0 +1,153 @@
+body{
+  background:url(image_fond_monument_indépendance_togo.png);
+  width: 90%;
+  background-size: cover;
+}
+.menu{
+  display: inline-block;
+  background-color: rgb(214, 12, 39);
+  height: 20pt;
+  width: 100pt;
+  padding-top: 5pt;
+  border-bottom-left-radius:3px, solid;
+  border-bottom-right-radius: 3px, solid;
+}
+h1{
+  font-size: 25pt;  
+  text-align: center;
+}
+h2{
+  font-size: 20pt;
+  color: #f80;
+  text-align: auto;
+  }
+  .histoire{
+  font-size: 20pt;
+  color: #f80;
+  text-align: center;
+  }
+.annonce{
+  font-weight: 400;
+  color: rgb(229, 255, 0);
+  text-align: center;
+}
+.menu:hover{
+   background-color: rgb(170, 243, 237);  
+   width: 135px; 
+   height: 25px;
+   border-radius: 15%;
+}
+p{
+  font-size: 15pt;
+  text-align: justify;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+.textapercu{
+  text-align: justify;
+  font-style: italic;
+  margin: 10%;
+}
+a,ol{
+  color: rgb(135, 247, 24);
+  margin-left: 5%;
+  font-weight: bold;
+  text-decoration: none;
+}
+#inscription{
+    font-size: 20pt;
+}
+.image{  
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 5%;
+  border-width: 10px solid;
+  border-color: #FAFAFA;
+}
+.image1{
+  background-image:url(Vue2_aménagement_décoratif_du_site.png);
+  min-width: 450px;
+  background-size: cover;
+}
+.image2{
+  background-image:url(Monument_de_indépendance_image1.png);
+  min-width: 400px;
+  background-size: cover;
+}
+.image3{
+  background-image:url(Monument_indépendance_image2.png);
+  min-width: 450px;
+  background-size: cover;
+}
+.image4{
+  background-image:url(Monument_vue_de_nuit2.png);
+  min-width: 400px;
+  background-size: cover;
+}
+p.titre{
+  text-decoration: black;
+  margin-top: 50%;
+}
+img{
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+/* page d'inscription */
+
+form{
+  background-image:url(Monument_vue_de_nuit3.png) ;
+  background-color: #FAFAFA; 
+  padding-left: 300px;
+  width: 85%;
+  margin: auto;
+}
+label{
+  color: #fafafa;
+  margin-top: 10px;
+  display: block;
+}
+input,textarea,select,option{
+  background-color: #fff3f3;    
+}
+input,textarea,select{  
+  padding: 3px;
+  border: 1px solid;
+  width: 400px;
+  border-radius: 5px;
+}
+input[type="submit"],input[type="reset"]{
+  width: 100px; 
+  margin-left: 5px;
+  box-shadow:2px 2px 2px #D83F3D ;
+}
+input[radio],[select]{
+  width:auto;
+}
+input:required{
+  border-color: #f80;
+}
+input:invalid,textarea:invalid{
+  background-color: #fee;
+  border-color: red;
+  padding: 3px;
+}
+input:valid,textarea:valid{
+  background-color: cornsilk;
+  border-color: #5a5;
+}
+.horizontal{
+ float: left;
+}
+input[type="radio"],input[type="checkbox"]{
+width: auto;
+}
+.radio{
+ font: bold;
+}
