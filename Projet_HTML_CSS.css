@@ -106,7 +106,8 @@ form{
   background-color: #FAFAFA; 
   padding-left: 300px;
   width: 85%;
-  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 label{
   color: #fafafa;
