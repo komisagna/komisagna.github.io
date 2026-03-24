@@ -104,6 +104,8 @@ img{
 form{
   background-image:url(Monument_vue_de_nuit3.png) ;
   background-color: #FAFAFA; 
+  height: 800px;
+  background-size: cover;
   padding-left: 300px;
   width: 85%;
   margin: auto;
